@@ -7,12 +7,12 @@ import (
 
 // From http://www.goinggo.net/2013/11/using-log-package-in-go.html
 
-func InitLogger(prefix string) *log.Logger {
+func initLogger(prefix string) *log.Logger {
 	return log.New(os.Stdout, prefix, log.Ltime|log.Lmicroseconds|log.Lshortfile)
 }
 
 var (
-	Trace = InitLogger("TRACE: ")
-	Info  = InitLogger("INFO : ")
-	Error = InitLogger("ERROR: ")
+	Trace = initLogger("TRACE: ")
+	Info  = initLogger("INFO : ")
+	Error = initLogger("ERROR: ")
 )
