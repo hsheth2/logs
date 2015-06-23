@@ -1,4 +1,4 @@
-package logging
+package logs
 
 import (
 	"log"
@@ -16,3 +16,5 @@ var (
 	Info  = initLogger("INFO : ")
 	Error = initLogger("ERROR: ")
 )
+
+// TODO: add tests
