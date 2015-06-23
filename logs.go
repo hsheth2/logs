@@ -16,5 +16,3 @@ var (
 	Info  = initLogger("INFO : ")
 	Error = initLogger("ERROR: ")
 )
-
-// TODO: add tests
