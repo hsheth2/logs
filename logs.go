@@ -15,4 +15,5 @@ var (
 	Trace = initLogger("TRACE: ")
 	Info  = initLogger("INFO : ")
 	Error = initLogger("ERROR: ")
+	Warn  = initLogger("WARN : ")
 )
